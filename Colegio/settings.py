@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Colegio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["/Users/nicolasgori/Documents/Programación/Python/Curso PYTHON CoderHouse/ejercicios_clase/3ra_pre_entrega/Colegio/AppColegio/static/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
