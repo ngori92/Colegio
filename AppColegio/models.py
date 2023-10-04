@@ -13,6 +13,8 @@ class Docente(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     entry_date = models.DateField()
+    subject = models.CharField(max_length=30)
+
     
 class Materia(models.Model):
     name = models.CharField(max_length=30)

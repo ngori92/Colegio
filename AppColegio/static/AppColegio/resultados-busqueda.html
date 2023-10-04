@@ -1,0 +1,16 @@
+{% extends "AppColegio/main.html" %}
+{% load static %}
+
+{% block contenidoQueCambia %}
+    <h2>Información del grado: {{grade}}</h2>
+    
+    <h4>Materias:</h4>
+    {% if materias %}
+    <ul>
+        {%for materia in materias %}
+            <li> {{materia.name}} </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+{% endblock %}
